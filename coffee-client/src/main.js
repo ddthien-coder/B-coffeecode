@@ -6,6 +6,9 @@ import store from './store'
 //  package
 import vuetify from "./plugins/vuetify";
 import animated from "animate.css";
+import "./assets/css/index.css";
+import "./assets/css/iconfont.css";
+import "./assets/css/markdown.css";
 import Share from "vue-social-share";
 import "vue-social-share/dist/client.css";
 import { vueBaberrage } from "vue-baberrage";
