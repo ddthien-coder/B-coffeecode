@@ -10,11 +10,28 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "clipboard": "^2.0.8",
     "core-js": "^3.6.5",
+    "easy-typer-js": "^2.1.0",
+    "highlight.js": "^10.6.0",
+    "markdown-it": "^12.0.4",
+    "moment": "^2.29.1",
     "register-service-worker": "^1.7.1",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^5.0.0",
     "vue": "^2.6.11",
+    "vue-avatar-cropper": "^1.0.9",
+    "vue-axios": "^3.2.4",
+    "vue-baberrage": "^3.2.4",
+    "vue-cute-timeline": "^1.2.8",
+    "vue-image-swipe": "^1.0.5",
+    "vue-infinite-loading": "^2.4.5",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vue-social-share": "^0.0.3",
+    "vuex": "^3.4.0",
+    "vuex-persistedstate": "^4.0.0-beta.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -29,7 +46,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "lint-staged": "^9.5.0",
-    "node-sass": "^4.12.0",
+    "sass": "^1.32.8",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
