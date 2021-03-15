@@ -2,7 +2,7 @@
    <div>
      <!-- banner -->
      <div class="category-banner banner">
-       <h1 class="banner-title">Classification</h1>
+       <h1 class="banner-title">Category</h1>
      </div>
      <!-- Category list -->
      <v-card class="blog-container">
