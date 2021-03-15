@@ -1,9 +1,7 @@
-import Vue from 'vue'
-import App from './App.vue'
-import './registerServiceWorker'
-import router from './router'
-import store from './store'
-//  package
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
+import store from "./store";
 import vuetify from "./plugins/vuetify";
 import animated from "animate.css";
 import "./assets/css/index.css";
@@ -19,14 +17,16 @@ import InfiniteLoading from "vue-infinite-loading";
 import "highlight.js/styles/atom-one-dark.css";
 import VueImageSwipe from "vue-image-swipe";
 import "vue-image-swipe/dist/vue-image-swipe.css";
+import Toast from "./components/toast/index";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 Vue.use(animated);
 Vue.use(Share);
 Vue.use(vueBaberrage);
 Vue.use(InfiniteLoading);
 Vue.use(VueAxios, axios);
 Vue.use(VueImageSwipe);
+Vue.use(Toast);
 
 Vue.filter("date", function(value) {
   return moment(value).format("YYYY-MM-DD");
@@ -39,13 +39,12 @@ Vue.filter("num", function(value) {
   return value;
 });
 
-
 new Vue({
   router,
   store,
   vuetify,
   render: h => h(App)
-}).$mount('#app')
+}).$mount("#app");
 
 router.afterEach(() => {
   window.scrollTo({
